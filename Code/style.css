@@ -5,6 +5,7 @@
 
 body{
 background: #7B7771;
+margin: 0;
 }
 
 img {
@@ -13,12 +14,18 @@ display: block;
 
 .Achtergrond{
 width: 100%;
-height: auto;
+height: 120%;
 position:absolute;
   left:0px;
   top:0px;
   z-index:-1;
   
+}
+
+header{
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+  padding: 0.3% 0px;
 }
 
 
@@ -34,10 +41,10 @@ h1{
 }
 
 .Zoekbar{
+margin: 10px 0px;
 float: right;
 padding: 6px;
 border: none;
-margin-top: 8px;
 margin-right: 10px;
 font-size: 17px;
 }
@@ -98,11 +105,11 @@ li a, .Openingstijden {
   text-decoration: none;
 }
 
-time a:hover, .Tijden:hover .Openingstijden {
+.Tijden a:hover, .Tijden:hover .Openingstijden {
   background-color: #757575;
 }
 
-time.Tijden {
+.Tijden {
   display: inline-block;
 }
 
@@ -236,10 +243,6 @@ to {opacity: 1}
 from {opacity: .4}
 to {opacity: 1}
 }
-
-
-
-
 
 
 .Expositie1, .Expositie3{
@@ -409,19 +412,22 @@ from {opacity: 0}
 to {opacity: 1}
 }
 
-.wrapper { display: flex; }
 
-
+.section3{
+  background-color: #535353;
+  padding: 100px 0px;
+  margin-top: 50px;
+}
 
 .Review1{
 border: 2px white solid;
 border-radius: 10px;
 padding: 10px;
-margin-top: 100px;
 width: 50%;
-margin-left: 74px;
-background-color: #535353;
+background-color: #7B7771;
 color: white;
+margin: 0 auto;
+margin-top: 100px;
 }
 
 .ReviewN{
@@ -432,12 +438,11 @@ border-bottom: solid white 1px;
 border: 2px white solid;
 border-radius: 10px;
 padding: 10px;
-margin-top: 100px;
 width: 50%;
-margin-right: 74px;
-background-color: #535353;
+background-color: #7B7771;
 color: white;
-margin-left: 134px;
+margin: 0 auto;
+margin-top: 50px;
 }
 
 .ReviewN2{
@@ -478,7 +483,6 @@ border-bottom: solid white 1px;
       size: 10%;
       height: 5%;
     }
-
     .Achtergrond{
       width: 100%;
       height: 90%;
@@ -488,12 +492,14 @@ border-bottom: solid white 1px;
       z-index:-1;
           
     }
-
-
-
-
-
-
+    .Review1,.Review2{
+      margin-top: 100px;
+      width: 80%;
+      margin-right: 50px;
+      margin-left: 50px;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
 }
 
 
@@ -508,25 +514,11 @@ border-bottom: solid white 1px;
     padding: 100px;
     width: 600px;
   }
-  
-  .Expositie1, .Expositie2, .Expositie3, .Expositie4 { transition: all .2s ease-in-out; }
-  .Expositie1:hover, .Expositie2:hover, .Expositie3:hover, .Expositie4:hover { transform: scale(1.1); }
-  
-  .Expositie3{
-  margin-top: 100px;
-  }   
-
-  .Expositie2{
-    margin-top: 100px;
-  }
-
-  .Expositie4{
-    margin-top: 100px;
-  }
 
   .Expositie1{
     margin-top: 200px;
   }
+
 
   .SliderF{
     size: 10%;
@@ -541,45 +533,31 @@ border-bottom: solid white 1px;
   }
 
   .Review1,.Review2{
-    margin-top: 100px;
     width: 80%;
     margin-right: 50px;
     margin-left: 50px;
-    
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  h1{
+    font-size: 200%;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 60vw;
+    padding: 20px;
   }
 }
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
 
   
   .Expositie1, .Expositie2, .Expositie3, .Expositie4{
-    margin: 0 auto;
-    font-size: 22px;
-    margin-top: 100px;
-    padding: 100px;
     width: 400px;
   }
   
-  .Expositie1, .Expositie2, .Expositie3, .Expositie4 { transition: all .2s ease-in-out; }
-  .Expositie1:hover, .Expositie2:hover, .Expositie3:hover, .Expositie4:hover { transform: scale(1.1); }
-  
-  .Expositie3{
-  margin-top: 100px;
-  }   
-
-  .Expositie2{
-    margin-top: 100px;
-  }
-
-  .Expositie4{
-    margin-top: 100px;
-  }
-
-  .Expositie1{
-    margin-top: 200px;
-  }
 
   .SliderF{
     size: 10%;
@@ -588,7 +566,7 @@ border-bottom: solid white 1px;
 
   .Achtergrond{
     width: 100%;
-    height: 50%;
+    height: 70%;
     overflow: hidden;
     position:absolute;
   }
@@ -596,11 +574,6 @@ border-bottom: solid white 1px;
   .Review1,.Review2{
     font-size: 15px;
     margin-top: 100px;
-    width: 80%;
-    margin-right: 50px;
-    margin-left: 50px;
-    
-    
   }
 
   .Zoekbar{
@@ -610,6 +583,7 @@ border-bottom: solid white 1px;
     margin-top: 8px;
     margin-right: 10px;
     font-size: 17px;
+    width: 120px;
   }
     
   .topnav {
@@ -624,3 +598,209 @@ border-bottom: solid white 1px;
   }
 
 }
+
+@media screen and (max-width:650px) {
+
+  
+  .Expositie1, .Expositie2, .Expositie3, .Expositie4{
+    width: 400px;
+  }
+
+  .Achtergrond{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    position:absolute;
+  }
+
+  .Review1{
+    display: block;
+  }
+
+  .Review2{
+    display: block;
+  }
+
+  .Review1,.Review2{
+    font-size: 15px;
+    margin-top: 50px;
+    width: 80%;
+  }
+
+  .Zoekbar{
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    width: 90px;
+  }
+    
+  .topnav {
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 10px;
+  } 
+    
+    
+  .topnav a {
+    font-size: 16px;  
+  }
+
+}
+
+@media screen and (max-width:600px) {
+
+  
+  .Expositie1, .Expositie2, .Expositie3, .Expositie4{
+    width: 400px;
+  }
+
+  .Achtergrond{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    position:absolute;
+  }
+
+  .Review1,.Review2{
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  .section3{
+    width: 100%;
+  }
+
+  .Zoekbar{
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    width: 60px;
+  }
+    
+  h1{
+    font-size: 200%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100vw;
+    padding: 20px;
+  }
+
+}
+
+@media screen and (max-width:450px) {
+
+
+  .topnav {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #535353;
+    overflow: auto;
+    border: white solid 1px;
+    font-size: 10px;
+  } 
+  
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;  
+    background-color: #535353;  
+  }
+
+  
+  .Expositie1, .Expositie2, .Expositie3, .Expositie4{
+    width: 250px;
+    padding: 50px;
+  }
+
+  .Expositie1{
+    margin-top: 100px;
+  }
+
+  .Achtergrond{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    position:absolute;
+  }
+
+  .Review1,.Review2{
+    font-size: 15px;
+    margin-top: 100px;
+    width: 80%;
+  }
+
+  .Zoekbar{
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    width: 60px;
+  }
+  
+    
+  h1{
+    font-size: 200%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100vw;
+    padding: 20px;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+
+  .topnav {
+    width: 100vw;
+    margin: 0 auto;
+    font-size: 5px;
+  }
+
+  .SliderF{
+    width: 100%;
+    height: 200px;
+    align-content: center;
+    }
+    
+  .slideshow-container {
+    max-width: 90%;
+    max-height: 10%;
+  }
+  
+  .topnav a {
+    font-size: 15px;  
+  }
+
+  .Achtergrond{
+    width: 100%;
+    height: 60%;
+  }
+
+  .Zoekbar{
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    width: 60px;
+  }
+
+}
+
+@media screen and (max-width:355px) {
+  .topnav a{
+    font-size: 11px;
+  }
+
+}
+
+
+
