@@ -248,11 +248,23 @@ from {opacity: .4}
 to {opacity: 1}
 }
 
+.Exposities{
+  border: white 2px solid;
+  text-align: center;
+  font-size: 200%;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 5px;
+  margin-top: 150px;
+  background-color: #535353;
+  color: white;
+  }
+
 
 .Expositie1, .Expositie3{
 font-size: 22px;
 margin-left: 180px;
-margin-top: 100px;
+margin-top: 200px;
 width: fit-content;
 border: white 2px solid;
 padding: 150px;
@@ -417,10 +429,22 @@ to {opacity: 1}
 }
 
 
+
+
+
+.Reviewss{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+
 .section3{
   background-color: #535353;
   padding: 100px 0px;
   margin-top: 50px;
+  border-top: 1px white solid;
 }
 
 .Review1{
@@ -459,6 +483,8 @@ footer{
   padding: 0.3% 0px;
   color: #f2f2f2;
 }
+
+
 
 
 
