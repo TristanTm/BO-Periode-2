@@ -327,6 +327,23 @@ margin-top: 150px;
 background-color: #535353;
 }
 
+.Geschiedenis{
+border: white 2px solid;
+text-align: center;
+font-size: 200%;
+margin: 0 auto;
+width: 90%;
+border-radius: 5px;
+margin-top: 150px;
+background-color: #535353;
+}
+
+
+.GFont{
+  font-size: 65%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 .Knop1{
 float: right;
