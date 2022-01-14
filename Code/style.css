@@ -4,7 +4,7 @@
 }
 
 body{
-background: #7B7771;
+background: #6b665e;
 margin: 0;
 }
 
@@ -74,7 +74,6 @@ font-size: 17px;
   font-size: 17px;  
   background-color: #535353;  
 }
-
 
 
 .topnav a:hover {
@@ -859,6 +858,29 @@ footer{
   }
 
 }
+
+
+
+.h4{
+  margin-top: 200px;
+}
+
+.sectie{
+  color: white;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.h41{
+  margin-top: 200px;
+}
+
+.h42, .h43, .h44{
+  margin-top: 100px;
+}
+
+
+
 
 
 
