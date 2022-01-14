@@ -330,8 +330,8 @@ background-color: #535353;
 border: white 2px solid;
 text-align: center;
 font-size: 200%;
-margin: 0 auto;
 width: 90%;
+margin: 0 auto;
 border-radius: 5px;
 margin-top: 150px;
 background-color: #535353;
@@ -750,6 +750,10 @@ footer{
     padding: 20px;
   }
 
+  .Geschiedenis{
+    width: 100vw;
+  }
+
 }
 
 @media screen and (max-width:450px) {
@@ -818,6 +822,14 @@ footer{
     margin: 0 auto;
     width: 100vw;
     padding: 20px;
+  }
+
+  .Geschiedenis{
+    font-size: 130%;
+    border: none;
+    border-radius: 0px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
   }
 
 }
