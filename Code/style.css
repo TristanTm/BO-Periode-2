@@ -908,8 +908,56 @@ footer{
   margin-top: 100px;
 }
 
+#container{
+  background-color: #535353;
+  width: 900px;
+  margin: 0px auto auto auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
 
+#containerImg{
+  background-color: #535353;
+  width: 900px;
+  height: 600px;
+  margin: 50px auto 100px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
 
+#myInteraction{
+  padding: auto, 10px, 10px, 10px;
+  text-align: center;  
+  margin-top: 5px;
+}
 
+input{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
 
+#mapimage{
+  margin-top: 5px;
+  max-width: 70%;
+  height: 50%;
+  float: right;
+}
 
+button{
+  margin: 0 auto;
+  background-color: #4d4b4b;
+  border: white solid 1px;
+  font-size: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #f2f2f2;
+}
+
+button :hover{
+  background-color: #fc0000;
+}
+
+#Buttons{
+  margin-left: 200px;
+}
