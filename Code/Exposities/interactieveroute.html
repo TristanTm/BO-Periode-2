@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Poppins:wght@500&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Scheepsvaartmuseum Tour</title>
+    <link rel="stylesheet" href="/Code/style.css">
+</head>
+
+<body>
+    <div id="containerImg">
+    <img id="myImage" src="/Code/img/Ingang.jpg" height="675px" alt="foto ingang">
+    </div>
+    <div id="container">
+
+        <div id="myInteraction">
+            <div id="Buttons">
+            <div id="myTitle">Scheepsvaartmuseum Adventure (1 t/m 11)</div>
+            <h3>Kies welke richting je op wilt:</h3>
+            <nav>
+                <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
+                <button id="knopWest" onclick="goDirection('west')">West</button>
+                <button id="knopOost" onclick="goDirection('oost')">Oost</button>
+                <p>
+                    <button id="knopHoog" onclick="goDirection('hoog')">Omhoog</button>
+                    <button id="knopLaag" onclick="goDirection('laag')">Omlaag</button>
+                </p>
+                <p>
+                    <button id="knopTerug" onclick="goDirection('terug')">Terug</button>
+                </p>
+                
+            </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/Code/Exposities/RouteJS/routescript.js"></script>
+</body>
+
+</html>
