@@ -1,190 +1,206 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    <title>Scheepsvaartmuseum website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Scheepsvaartmuseum website</title>
 </head>
+
 <body>
   <header><a href="indexEn.html">English</a></header>
-    <h1>Scheepsvaartmuseum Amsterdam</h1>
-        <ul class="topnav">
-          <li><a href="index.html">Home</a></li>
-          <li class="Tijden">
-            <a class="Openingstijden">Openingstijden</a>
-            <div class="Openingstijden-content">
-              <a>Maandag - Gesloten</a>
-              <a>Dinsdag - 10.00 t/m 17.00</a>
-              <a>Woensdag - 10.00 t/m 17.00</a>
-              <a>Donderdag - 10.00 t/m 17.00</a>
-              <a>Vrijdag - 10.00 t/m 17.00</a>
-              <a>Zaterdag - 10.00 t/m 17.00</a>
-              <a>Zondag - 10.00 t/m 17.00</a>
-            </div>    
-          </li>
-          <li style="float: right;" ><a href="https://tickets.hetscheepvaartmuseum.nl/nl/tickets" style="background-color: rgb(63, 60, 60);">Tickets</a></li>
-        </ul>
-        
-        
+  <h1>Scheepsvaartmuseum Amsterdam</h1>
+  <ul class="topnav">
+    <li><a href="index.html">Home</a></li>
+    <li class="Tijden">
+      <a class="Openingstijden">Openingstijden</a>
+      <section class="Openingstijden-content">
+        <a>Maandag - Gesloten</a>
+        <a>Dinsdag - 10.00 t/m 17.00</a>
+        <a>Woensdag - 10.00 t/m 17.00</a>
+        <a>Donderdag - 10.00 t/m 17.00</a>
+        <a>Vrijdag - 10.00 t/m 17.00</a>
+        <a>Zaterdag - 10.00 t/m 17.00</a>
+        <a>Zondag - 10.00 t/m 17.00</a>
+      </section>
+    </li>
+    <li style="float: right;"><a href="https://tickets.hetscheepvaartmuseum.nl/nl/tickets"
+        style="background-color: rgb(63, 60, 60);">Tickets</a></li>
+  </ul>
 
-    <figure>
-      <img src="img/voc2.jpg" alt="Voc schilderij" class="Achtergrond">
+
+
+  <figure>
+    <img src="img/voc2.jpg" alt="Voc schilderij" class="Achtergrond">
+  </figure>
+
+
+
+
+
+  <section class="slideshow-container">
+
+    <figure class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="img/20200612_HSM_032-45350.jpg" class="SliderF" alt="Foto binnenkant gebouw">
+    </figure>
+
+    <figure class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="img/ha.jpg" class="SliderF" alt="Het gebouw van buiten">
+    </figure>
+
+    <figure class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="img/Scheepvaart-Museum-Amsterdam.jpg" class="SliderF" alt="Ruimte met kleine boot modellen">
+    </figure>
+
+    <figure class="mySlides fade">
+      <div class="numbertext">4 / 3</div>
+      <img src="img/boot.jpg" class="SliderF" alt="Foto binnenkant gebouw">
+    </figure>
+
+    <figure class="mySlides fade">
+      <div class="numbertext">5 / 6</div>
+      <img src="img/boten.jpg" class="SliderF" alt="Het gebouw van buiten">
+    </figure>
+
+    <figure class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img src="img/binenn.jpg" class="SliderF" alt="Ruimte met kleine boot modellen">
     </figure>
 
 
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </section>
 
 
+  <section style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </section>
 
-<figure class="slideshow-container">
 
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 6</div>
-    <img src="img/20200612_HSM_032-45350.jpg" class="SliderF" alt="Foto binnenkant gebouw">
-    <div class="text">Main gebouw</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 6</div>
-    <img src="img/ha.jpg" class="SliderF" alt="Het gebouw van buiten">
-    <div class="text">Het gebouw zelf</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 6</div>
-    <img src="img/Scheepvaart-Museum-Amsterdam.jpg" class="SliderF" alt="Ruimte met kleine boot modellen">
-    <div class="text">Modellen ruimte</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 3</div>
-    <img src="img/boot.jpg" class="SliderF" alt="Foto binnenkant gebouw">
-    <div class="text">Onderzeër</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 6</div>
-    <img src="img/boten.jpg" class="SliderF" alt="Het gebouw van buiten">
-    <div class="text">VOC schip</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 6</div>
-    <img src="img/binenn.jpg" class="SliderF" alt="Ruimte met kleine boot modellen">
-    <div class="text">binnenkant gebouw</div>
+  <div class="Exposities">
+    <p>De actuele exposities</p>
   </div>
 
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-</figure>
+  <article class="Expositie1"><a href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/amsterdam-havenstad">
+      Amsterdamse havenstad</a></article>
+  <article class="Expositie2"><a
+      href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/verhaal-van-de-walvis">Het verhaal van de
+      walvis</a></article>
+  <article class="Expositie3"><a
+      href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/willem-van-de-velde-en-zoon">Willem van de Velde
+      & Zoon</a></article>
+  <article class="Expositie4"><a
+      href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/republiek-aan-zee">Hoofdgalerij: republiek aan
+      zee</a></article>
 
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
-</div>
 
 
-<div class="Exposities">
-  <p>De actuele exposities</p>
-</div>
-
-
-  <article class="Expositie1"><a href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/amsterdam-havenstad">  Amsterdamse havenstad</a></article>
-  <article class="Expositie2"><a href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/verhaal-van-de-walvis">Het verhaal van de walvis</a></article>
-  <article class="Expositie3"><a href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/willem-van-de-velde-en-zoon">Willem van de Velde & Zoon</a></article>
-  <article class="Expositie4"><a href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/republiek-aan-zee">Hoofdgalerij: republiek aan zee</a></article>
- 
-
-
- 
 
 
   <div class="Overig">
-    <a href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen"><p>Overige Exposities</p></a>
- </div>
-
- <article class="Geschiedenis">
-   <h1>Geschiedenis</h1>
-   <p class="GFont">De Vereeniging Nederlandsch Historisch Scheepvaart Museum is in 1916 opgericht en eigenares van een van de meest vooraanstaande maritieme collecties ter wereld, 
-     een rechtstreeks gevolg van het succes van de Eerste Nederlandse Tentoonstelling op Scheepvaartgebied in 1913. 
-     De ongeveer 300.000 objecten zijn afkomstig van rederijen, 
-     verzamelaars en liefhebbers uit de maritieme en marinewereld. 
-     Oorspronkelijk was het museum gevestigd in een gebouw op de hoek Cornelis Schuytstraat / De Lairessestraat in Amsterdam-Zuid, 
-     tot 2018 veilinghuis Christie's. 
-     De oorspronkelijke functie is nog te zien aan de golfmotieven in de bakstenen gevel.</p>
-    <p class="GFont">Sinds 1973 is het museum gevestigd in 's Lands Zeemagazijn aan het Oosterdok bij het IJ in Amsterdam. 
-       Kroonprinses Beatrix der Nederlanden heropende het museum in april van dat jaar op de nieuwe locatie.</p>
-    <p class="GFont">Tijdens een grote renovatie tussen 2007 en 2011 was het museum voor het publiek gesloten. 
-      In die periode is onder andere de binnenplaats overdekt met een glazen overkapping. 
-      Het ontwerp van het renovatieplan is van de architect Liesbeth van der Pol. 
-      Het depot van het museum uit 2001, het Behouden Huis, 
-      op het naastgelegen Marine Etablissement Amsterdam is eveneens door haar ontworpen. 
-      Na de ingrijpende verbouwing is het museum sinds oktober 2011 weer open. 
-      Ook de replica van de Oost-Indiëvaarder Amsterdam ligt sindsdien weer aan de steiger bij Het Scheepvaartmuseum.</p>
-      <a href="https://nl.wikipedia.org/wiki/Het_Scheepvaartmuseum">Bron</a>
- </article>
-
-<button id="Knop1" class="Knop1">Contact</button>
- 
-<div id="Scherm1" class="Scherm">
-
-  <div class="Scherm-Inhoud">
-    <div class="Scherm-Boven">
-      <span class="close">&times;</span>
-      <h2>Contact Formulier</h2>
-    </div>
-    <div class="Scherm-Body">
-      <p>Email: ............</p>
-      <p>Telefoonnummer: ..............</p>
-      <h2 class="Klachten">Klachten</h2>
-      <p>Klachten-email: .............</p>
-      <p>Telefoonnummer: .........</p>
-    </div>
-    <div class="Scherm-Onder">
-      <h3>Scheepsvaartmuseum Amsterdam</h3>
-    </div>
+    <a href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen">
+      <p>Overige Exposities</p>
+    </a>
   </div>
-  <script src="script.js"></script>
-</div>
+
+
+  <article class="Geschiedenis">
+    <h1>Geschiedenis</h1>
+    <p class="GFont">De Vereeniging Nederlandsch Historisch Scheepvaart Museum is in 1916 opgericht en eigenares van een
+      van de meest vooraanstaande maritieme collecties ter wereld,
+      een rechtstreeks gevolg van het succes van de Eerste Nederlandse Tentoonstelling op Scheepvaartgebied in 1913.
+      De ongeveer 300.000 objecten zijn afkomstig van rederijen,
+      verzamelaars en liefhebbers uit de maritieme en marinewereld.
+      Oorspronkelijk was het museum gevestigd in een gebouw op de hoek Cornelis Schuytstraat / De Lairessestraat in
+      Amsterdam-Zuid,
+      tot 2018 veilinghuis Christie's.
+      De oorspronkelijke functie is nog te zien aan de golfmotieven in de bakstenen gevel.</p>
+    <p class="GFont">Sinds 1973 is het museum gevestigd in 's Lands Zeemagazijn aan het Oosterdok bij het IJ in
+      Amsterdam.
+      Kroonprinses Beatrix der Nederlanden heropende het museum in april van dat jaar op de nieuwe locatie.</p>
+    <p class="GFont">Tijdens een grote renovatie tussen 2007 en 2011 was het museum voor het publiek gesloten.
+      In die periode is onder andere de binnenplaats overdekt met een glazen overkapping.
+      Het ontwerp van het renovatieplan is van de architect Liesbeth van der Pol.
+      Het depot van het museum uit 2001, het Behouden Huis,
+      op het naastgelegen Marine Etablissement Amsterdam is eveneens door haar ontworpen.
+      Na de ingrijpende verbouwing is het museum sinds oktober 2011 weer open.
+      Ook de replica van de Oost-Indiëvaarder Amsterdam ligt sindsdien weer aan de steiger bij Het Scheepvaartmuseum.
+    </p>
+    <a href="https://nl.wikipedia.org/wiki/Het_Scheepvaartmuseum">Bron</a>
+  </article>
+
+  <button id="Knop1" class="Knop1">Contact</button>
+
+  <div id="Scherm1" class="Scherm">
+
+    <div class="Scherm-Inhoud">
+      <div class="Scherm-Boven">
+        <span class="close">&times;</span>
+        <h2>Contact Formulier</h2>
+      </div>
+      <div class="Scherm-Body">
+        <p>Email: ............</p>
+        <p>Telefoonnummer: ..............</p>
+        <h2 class="Klachten">Klachten</h2>
+        <p>Klachten-email: .............</p>
+        <p>Telefoonnummer: .........</p>
+      </div>
+      <div class="Scherm-Onder">
+        <h3>Scheepsvaartmuseum Amsterdam</h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </div>
 
 
 
 
-<div class="section3">
-  <p class="Reviewss">Reviews</p>
+  <div class="section3">
+    <p class="Reviewss">Reviews</p>
     <div class="wrapper">
       <article class="Review1">
-      <p class="ReviewN">Erwin Smit</p> 
+        <p class="ReviewN">Erwin Smit</p>
 
-      <p>Erg leuke informatieve opbouw over de geschiedenis van de scheepsvaart. Dit gaat gepaard met vertellende verhalen voor kinderen tot opgebouwde kunst van de afgelopen eeuwen.
-      Wij hebben de audio-tour gedaan waar ik zelf altijd voorstander van ben en wat prima werkt. Je kan zelf kiezen waarover je de audio wilt gebruiken door een code te scannen die door het hele museum aanwezig zijn.
-    
-      Sommige dagen ligt er ook een oud schip voor de kant waar je een kijkje op kan nemen. Al met al een aanrader voor jong en oud om eens te bezoeken.</p> 
-    </article>
+        <p>Erg leuke informatieve opbouw over de geschiedenis van de scheepsvaart. Dit gaat gepaard met vertellende
+          verhalen voor kinderen tot opgebouwde kunst van de afgelopen eeuwen.
+          Wij hebben de audio-tour gedaan waar ik zelf altijd voorstander van ben en wat prima werkt. Je kan zelf kiezen
+          waarover je de audio wilt gebruiken door een code te scannen die door het hele museum aanwezig zijn.
+
+          Sommige dagen ligt er ook een oud schip voor de kant waar je een kijkje op kan nemen. Al met al een aanrader
+          voor jong en oud om eens te bezoeken.</p>
+      </article>
+    </div>
+
+    <div class="wrapper">
+      <article class="Review2">
+        <p class="ReviewN2">Irene Yeager</p>
+
+        <p>Laat op verschillende manieren kennis maken met het belang van de scheepvaart en de samenhang met de
+          geschiedenis van Nederland</p>
+      </article>
+    </div>
   </div>
 
-<div class="wrapper">
-  <article class="Review2">
-      <p class="ReviewN2">Irene Yeager</p> 
-
-      <p>Laat op verschillende manieren kennis maken met het belang van de scheepvaart en de samenhang met de geschiedenis van Nederland</p> 
-  </article>
-  </div>
-</div>
 
 
-
-<footer>Gemaakt door Tom en Tristan</footer>
+  <footer>Gemaakt door Tom en Tristan</footer>
 
 
 
 </body>
+
 </html>
