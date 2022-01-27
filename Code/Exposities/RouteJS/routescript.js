@@ -6,7 +6,7 @@ const myInput = document.getElementById("myInput");
 const knopNoord = document.getElementById('knopNoord');
 const knopOost = document.getElementById('knopOost');
 const knopWest = document.getElementById('knopWest');
-const knopZuid = document.getElementById('knopZuid');
+// const knopZuid = document.getElementById('knopZuid');
 const knopHoog = document.getElementById('knopHoog');
 const knopLaag = document.getElementById('knopLaag');
 const knopTerug = document.getElementById('knopTerug');
@@ -15,7 +15,7 @@ let directionButtons = {
     "noord": document.getElementById('knopNoord'),
     "oost": document.getElementById('knopOost'),
     "west": document.getElementById('knopWest'),
-    "zuid": document.getElementById('knopZuid'),
+    // "zuid": document.getElementById('knopZuid'),
     "hoog": document.getElementById('knopHoog'),
     "laag": document.getElementById('knopLaag'),
     "terug": document.getElementById('knopTerug'),
@@ -128,8 +128,20 @@ function show(index){
 }
 
 function updateDirections(){
-    // Haal de mogelijke directions op voor de current_index
-    // Haal alle knoppen op
+    let possible = lokaties[current_index].directions;
+
+    let possible_keys = Object.keys(possible);
+
+    let button_keys = Object.keys(directionButtons);
+
+    for(const key of button_keys){
+        directionButtons[key].style.visibility = "hidden";
+        
+    }
+
+    for(const key of possible_keys){
+        directionButtons[key].style.visibility = "visible"
+    }
 
 }
 
