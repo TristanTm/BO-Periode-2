@@ -37,7 +37,7 @@ let lokaties =[ // Array
     },
     { //1 = Object
         "titel":"Gangtrap Noord",
-        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Gangtrap.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/gangtrap.jpg",
         "directions":{
             "hoog": 2,
             "laag": 3,
@@ -60,7 +60,7 @@ let lokaties =[ // Array
     },
     { // 4
         "titel":"Gangtrap west",
-        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Gangtrap.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/gangtrap.jpg",
         "directions":{
             "terug": 0,
             "hoog": 5,
@@ -92,7 +92,7 @@ let lokaties =[ // Array
     },
     { // 8
         "titel":"Gangtrap oost",
-        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Gangtrap.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/gangtrap.jpg",
         "directions":{
             "terug": 0,
             "hoog": 9,
@@ -101,14 +101,14 @@ let lokaties =[ // Array
     },
     { // 9
         "titel":"Amsterdam havenstad",
-        "image":"/img/Amsterdamhavenstad.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Amsterdamhavenstad.jpg",
         "directions":{
             "terug": 8,
         }
     },
     {
         "titel":"Verhaal van de walvis",
-        "image":"/img/Walvis.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Walvis.jpg",
         "directions":{
             "terug": 8,
         }
