@@ -27,7 +27,7 @@ let current_index = 0;
 let lokaties =[ // Array
     { //0 = Object
         "titel":"Ingang",
-        "image":"/Code/img/Ingang.jpg",
+        "image":"/img/Ingang.jpg",
         "directions":{
             "noord": 1,
             "west": 4,
@@ -37,7 +37,7 @@ let lokaties =[ // Array
     },
     { //1 = Object
         "titel":"Gangtrap Noord",
-        "image":"/Code/img/Gangtrap.jpg",
+        "image":"/img/Gangtrap.jpg",
         "directions":{
             "hoog": 2,
             "laag": 3,
@@ -46,21 +46,21 @@ let lokaties =[ // Array
     },
     { // 2
         "titel":"I love Banda",
-        "image":"/Code/img/Scheepsmodellen.jpg",
+        "image":"/img/Scheepsmodellen.jpg",
         "directions":{
             "terug": 1
         }
     },
     { // 3
         "titel":"Republiek aan zee",
-        "image":"/Code/img/Voc.jpg",
+        "image":"/img/Voc.jpg",
         "directions":{
             "terug": 1
         }
     },
     { // 4
         "titel":"Gangtrap west",
-        "image":"/Code/img/Gangtrap.jpg",
+        "image":"/img/Gangtrap.jpg",
         "directions":{
             "terug": 0,
             "hoog": 5,
@@ -70,14 +70,14 @@ let lokaties =[ // Array
 
     { // 5
         "titel":"Scheepsornamenten",
-        "image":"/Code/img/Scheepsornamenten.jpg",
+        "image":"/img/Scheepsornamenten.jpg",
         "directions":{
             "terug": 4
         }
     },
     { // 6
         "titel":"Cartografie & curiosa",
-        "image":"/Code/img/Scheepsmodellen.jpg",
+        "image":"/img/Scheepsmodellen.jpg",
         "directions":{
             "terug": 4
         }
@@ -85,14 +85,14 @@ let lokaties =[ // Array
 
     { // 7
         "titel":"Museum",
-        "image":"/Code/img/Museum.jpg",
+        "image":"/img/Museum.jpg",
         "directions":{
             "terug": 0
         }
     },
     { // 8
         "titel":"Gangtrap oost",
-        "image":"/Code/img/Gangtrap.jpg",
+        "image":"/img/Gangtrap.jpg",
         "directions":{
             "terug": 0,
             "hoog": 9,
@@ -101,14 +101,14 @@ let lokaties =[ // Array
     },
     { // 9
         "titel":"Amsterdam havenstad",
-        "image":"/Code/img/Amsterdamhavenstad.jpg",
+        "image":"/img/Amsterdamhavenstad.jpg",
         "directions":{
             "terug": 8,
         }
     },
     {
         "titel":"Verhaal van de walvis",
-        "image":"/Code/img/Walvis.jpg",
+        "image":"/img/Walvis.jpg",
         "directions":{
             "terug": 8,
         }
