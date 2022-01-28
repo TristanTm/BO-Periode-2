@@ -27,7 +27,7 @@ let current_index = 0;
 let lokaties =[ // Array
     { //0 = Object
         "titel":"Ingang",
-        "image":"/img/Ingang.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Ingang.jpg",
         "directions":{
             "noord": 1,
             "west": 4,
@@ -37,7 +37,7 @@ let lokaties =[ // Array
     },
     { //1 = Object
         "titel":"Gangtrap Noord",
-        "image":"/img/Gangtrap.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Gangtrap.jpg",
         "directions":{
             "hoog": 2,
             "laag": 3,
@@ -46,21 +46,21 @@ let lokaties =[ // Array
     },
     { // 2
         "titel":"I love Banda",
-        "image":"/img/Scheepsmodellen.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Scheepsmodellen.jpg",
         "directions":{
             "terug": 1
         }
     },
     { // 3
         "titel":"Republiek aan zee",
-        "image":"/img/Voc.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Voc.jpg",
         "directions":{
             "terug": 1
         }
     },
     { // 4
         "titel":"Gangtrap west",
-        "image":"/img/Gangtrap.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Gangtrap.jpg",
         "directions":{
             "terug": 0,
             "hoog": 5,
@@ -70,14 +70,14 @@ let lokaties =[ // Array
 
     { // 5
         "titel":"Scheepsornamenten",
-        "image":"/img/Scheepsornamenten.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Scheepsornamenten.jpg",
         "directions":{
             "terug": 4
         }
     },
     { // 6
         "titel":"Cartografie & curiosa",
-        "image":"/img/Scheepsmodellen.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Scheepsmodellen.jpg",
         "directions":{
             "terug": 4
         }
@@ -85,14 +85,14 @@ let lokaties =[ // Array
 
     { // 7
         "titel":"Museum",
-        "image":"/img/Museum.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Museum.jpg",
         "directions":{
             "terug": 0
         }
     },
     { // 8
         "titel":"Gangtrap oost",
-        "image":"/img/Gangtrap.jpg",
+        "image":"http://33825.hosts1.ma-cloud.nl/scheepvaartmuseum/BO2/Code/img/Gangtrap.jpg",
         "directions":{
             "terug": 0,
             "hoog": 9,
